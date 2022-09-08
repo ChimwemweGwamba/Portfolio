@@ -1,0 +1,77 @@
+.AppContainer{
+  width: 80%;
+  margin: auto;
+}
+
+h1{
+  margin: 0;
+  font-size: 80px;
+  line-height: 90px;
+  color: white;
+}
+
+h1 a{
+  color: #00FFFF;
+}
+
+h3{
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+}
+
+h3 a{
+  color: #00FFFF;
+  font-weight: 100;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0;
+}
+
+
+
+/* ---------------------------- BANNER SECTION -------------------------- */
+.bannerContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.bannerLeft{
+  width: 45%;
+}
+
+.bannerRight{
+  width: 30%;
+}
+
+
+
+
+/* ---------------------------- ABOUT SECTION ------------------------------- */
+.aboutContainer{
+  padding: 150px 0;
+}
+
+.aboutSectionsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.aboutLeft{
+  /* border: solid 1px white; */
+  width: 65%;
+}
+
+.aboutRight{
+  /* border: solid 1px white; */
+  width: 30%;
+}

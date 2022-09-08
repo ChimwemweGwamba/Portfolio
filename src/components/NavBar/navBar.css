@@ -1,0 +1,31 @@
+.navBarContainer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ---------- LOGO ------------------*/
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+/*----------- NAV BAR --------------------*/
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navigation li{
+    margin-left: 35px;
+    color: white;
+}
