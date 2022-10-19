@@ -1,0 +1,20 @@
+.contactContainer{
+    padding: 70px 0;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.contactContainer h1{
+    color: #00FFFF;
+}
+
+.contactContainer p{
+    padding: 30px 0;
+}
+
+.contactButton{
+    width: fit-content;
+    margin: auto;
+}

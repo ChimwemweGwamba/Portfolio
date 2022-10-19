@@ -1,0 +1,53 @@
+.aboutContainer{
+    padding: 70px 0;
+}
+
+
+.aboutTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutTopLeft{
+    width: 35%;
+}
+
+
+
+.aboutTopRight{
+    width: 60%;
+    text-align: justify;
+}
+
+
+
+.aboutSocials{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0;
+}
+
+
+.aboutSocialsBox img{
+    height: 30px;
+    margin-right: 100px;
+}
+
+
+
+
+.aboutBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.aboutBottomBox{
+
+}
+
+.aboutBottomBox p{
+    color: #00FFFF;
+}
