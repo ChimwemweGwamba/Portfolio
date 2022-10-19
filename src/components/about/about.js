@@ -8,6 +8,12 @@ import medium from '../../assets/images/medium.png'
 
 
 function About() {
+
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      };
+
+
   return (
     <div className='aboutContainer'>
         <div className='aboutTop'>
@@ -41,19 +47,19 @@ function About() {
 
                 <div className='aboutSocials'>
                     <div className='aboutSocialsBox'>
-                        <img src={github} alt="github" />
+                        <img src={github} alt="github" onClick={() => openInNewTab('https://github.com/ChimwemweGwamba')} />
                     </div>
 
                     <div className='aboutSocialsBox'>
-                        <img src={linkedin} alt="linkedin" />
+                        <img src={linkedin} alt="linkedin" onClick={() => openInNewTab('https://www.linkedin.com/in/chimwemwe-gwamba/')} />
                     </div>
 
-                    <div className='aboutSocialsBox'>
-                        <img src={medium} alt="medium" />
-                    </div>
+                    {/* <div className='aboutSocialsBox'>
+                        <img src={medium} alt="medium" onClick={() => openInNewTab('https://github.com/ChimwemweGwamba')} />
+                    </div> */}
 
                     <div className='aboutSocialsBox'>
-                        <img src={twitter} alt="twitter" />
+                        <img src={twitter} alt="twitter" onClick={() => openInNewTab('https://twitter.com/Chim_dawg')} />
                     </div>
                 </div>
             </div>
