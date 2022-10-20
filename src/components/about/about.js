@@ -16,93 +16,76 @@ function About() {
 
   return (
     <div className='aboutContainer'>
-        <div className='aboutTop'>
-            <div className='aboutTopLeft'>
-                <h5>
-                    ABOUT ME
-                </h5>
 
-                <h1>
-                    Lead product designer and art director
-                </h1>
-            </div>
+        <div className='aboutLeft'>
+            <h5>
+                ABOUT ME
+            </h5>
 
-            <div className='aboutTopRight'>
-                <h3>
-                    From <a>Electrical Engineer</a> To Software Developer? Well, I Have Always Been <a>Passionate</a> About
-                    Building Things And <a>Solving Problems</a>.
-                </h3>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore.
-                </p>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore.
-                </p>
-
-                <div className='aboutSocials'>
-                    <div className='aboutSocialsBox'>
-                        <img src={github} alt="github" onClick={() => openInNewTab('https://github.com/ChimwemweGwamba')} />
-                    </div>
-
-                    <div className='aboutSocialsBox'>
-                        <img src={linkedin} alt="linkedin" onClick={() => openInNewTab('https://www.linkedin.com/in/chimwemwe-gwamba/')} />
-                    </div>
-
-                    {/* <div className='aboutSocialsBox'>
-                        <img src={medium} alt="medium" onClick={() => openInNewTab('https://github.com/ChimwemweGwamba')} />
-                    </div> */}
-
-                    <div className='aboutSocialsBox'>
-                        <img src={twitter} alt="twitter" onClick={() => openInNewTab('https://twitter.com/Chim_dawg')} />
-                    </div>
-                </div>
-            </div>
+            <h1>
+                Lead product designer and art director
+            </h1>
         </div>
 
+        <div className='aboutRight'>
+            <h3>
+                From <a>Electrical Engineer</a> To Software Developer? Well, I Have Always Been <a>Passionate</a> About
+                Building Things And <a>Solving Problems</a>.
+            </h3>
 
-        <div className='aboutBottom'>
-            <div className='aboutBottomBox'>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore.
+            </p>
+
+            <div className='aboutResources'>
                 <p>
                     React
                 </p>
-            </div>
-
-            <div className='aboutBottomBox'>
+            
                 <p>
                     NodeJS
                 </p>
-            </div>
 
-            <div className='aboutBottomBox'>
                 <p>
                     React Native
                 </p>
-            </div>
 
-            <div className='aboutBottomBox'>
                 <p>
                     TypeScript
                 </p>
-            </div>
 
-            <div className='aboutBottomBox'>
                 <p>
                     Django
                 </p>
-            </div>
 
-            <div className='aboutBottomBox'>
                 <p>
                     MongoDB
                 </p>
             </div>
+
+            <div className='aboutSocials'>
+                <div className='aboutSocialsBox'>
+                    <img src={github} alt="github" onClick={() => openInNewTab('https://github.com/ChimwemweGwamba')} />
+                </div>
+
+                <div className='aboutSocialsBox'>
+                    <img src={linkedin} alt="linkedin" onClick={() => openInNewTab('https://www.linkedin.com/in/chimwemwe-gwamba/')} />
+                </div>
+
+                <div className='aboutSocialsBox'>
+                    <img src={twitter} alt="twitter" onClick={() => openInNewTab('https://twitter.com/Chim_dawg')} />
+                </div>
+            </div>
         </div>
+
     </div>
   )
 }

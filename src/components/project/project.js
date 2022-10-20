@@ -10,27 +10,37 @@ function Project() {
         <div className='projectImg'>
         </div>
 
-        <div className='projectText'>
-            <h5>
-                Developer Task App
-            </h5>
+        <div className='projectDescription'>
+            <div className='projectDescriptionText'>
+                <h5>
+                    Developer Task App
+                </h5>
 
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut 
-                labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua
-            </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. incididunt ut labore et dolore magna aliqua
+                </p>
+            </div>
+
+            <div className='projectResources'>
+                <p>
+                    React
+                </p>
+                
+                <p>
+                    NodeJS
+                </p>
+                
+                <p>
+                    CSS
+                </p>
+            </div>
 
             <div className='projectLinks'>
-                <div className='projectLinkBox'>
-                    <img src={github} alt="github" />
-                    <p>Github</p>
-                </div>
+                <img src={github} alt="github" />
 
-                <div className='projectLinkBox'>
-                    <img src={link} alt="Link" />
-                    <p>Open</p>
-                </div>
+                <img src={link} alt="Link" />
             </div>
         </div>
     </div>

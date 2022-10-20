@@ -7,9 +7,13 @@ function ProjectSection() {
   return (
     <div className='projectSectionContainer'>
         <div className='projectSectionText'>
-            <h1>
-                Here are some of the <a>projects</a> i've built
-            </h1>
+          <h5>
+            PROJECTS
+          </h5>
+
+          <h1>
+              Here are some of the <a>Projects</a> i've built
+          </h1>
         </div>
 
         <Project></Project>

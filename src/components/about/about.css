@@ -1,53 +1,48 @@
 .aboutContainer{
-    padding: 70px 0;
-}
-
-
-.aboutTop{
+    padding: 100px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.aboutTopLeft{
+
+.aboutLeft{
     width: 35%;
 }
 
 
 
-.aboutTopRight{
+.aboutRight{
     width: 60%;
     text-align: justify;
 }
 
+.aboutResources{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.aboutResources p{
+    font-size: 16px;
+    color: #00FFFF;
+}
 
 
 .aboutSocials{
     display: flex;
     flex-direction: row;
-    padding: 40px 0;
+    justify-content: space-around;
+    padding: 20px 0;
 }
 
 
 .aboutSocialsBox img{
     height: 30px;
-    margin-right: 100px;
 }
 
 
 
 
-.aboutBottom{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 50px;
-}
 
-.aboutBottomBox{
-
-}
-
-.aboutBottomBox p{
-    color: #00FFFF;
-}
