@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
-import Project from '../project';
+import Project from './project';
 
 
 const Container = styled.div`
@@ -14,7 +14,7 @@ const Title = styled.h1`
 `;
 
 
-function ProjectSection() {
+function Projects() {
   return (
     <Container>
 
@@ -33,4 +33,4 @@ function ProjectSection() {
   )
 }
 
-export default ProjectSection
+export default Projects
