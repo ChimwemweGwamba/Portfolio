@@ -1,7 +1,7 @@
 import "./App.css"
 import Banner from "./components/banner"
 import About from "./components/about/about"
-import Contact from "./components/contact/contact"
+import Contact from "./components/contact"
 import ProjectSection from "./components/projectSection/projectSection"
 import Footer from "./components/footer/footer"
 import NavBar from "./components/navBar/navBar"

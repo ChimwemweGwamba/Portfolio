@@ -4,8 +4,8 @@
 }
 
 h1{
-  font-size: 4.25rem;
-  line-height: 4.5rem;
+  font-size: 4.5rem;
+  line-height: 4.75rem;
   font-weight: 800;
   color: white;
   margin: 1.75rem 0;
@@ -25,15 +25,8 @@ h3{
   margin: 0;
 }
 
-h3 a{
-  background: -webkit-linear-gradient(left, #00FFFF, #F3A0D7);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
 h5{
-  color: #00FFFF;
+  color: white;
   font-size: 20px;
   font-weight: 200;
   margin: 0;
