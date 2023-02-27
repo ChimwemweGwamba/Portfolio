@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../../assets/images/selfie.png";
+import bannerImg from "../assets/images/selfie.png";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -32,7 +32,6 @@ const Heading = styled.h1``;
 const SubHeading = styled.p``;
 
 const Button = styled.button``;
-
 
 function Banner() {
   return (

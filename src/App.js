@@ -1,5 +1,5 @@
 import "./App.css"
-import Banner from "./components/banner/banner"
+import Banner from "./components/banner"
 import About from "./components/about/about"
 import Contact from "./components/contact/contact"
 import ProjectSection from "./components/projectSection/projectSection"

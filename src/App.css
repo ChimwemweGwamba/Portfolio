@@ -12,22 +12,23 @@ h1{
 }
 
 h1 a{
-  background: -webkit-linear-gradient(left, #00FFFF, #F3A0D7);
+  background: -webkit-linear-gradient(left, #00FFFF 60%, #F3A0D7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 
 h3{
   color: white;
-  font-weight: 200;
+  font-weight: 100;
   font-size: 35px;
   line-height: 45px;
   margin: 0;
 }
 
 h3 a{
-  color: #00FFFF;
+  background: -webkit-linear-gradient(left, #00FFFF, #F3A0D7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
 
