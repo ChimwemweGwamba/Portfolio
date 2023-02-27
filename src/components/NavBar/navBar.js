@@ -2,8 +2,6 @@ import React from 'react'
 import './navBar.css'
 
 
-
-
 function NavBar() {
   return (
     <div className='navBarContainer'>
