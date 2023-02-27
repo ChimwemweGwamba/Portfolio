@@ -1,7 +1,7 @@
 import React from "react";
-import github from "../../assets/images/github.png";
-import linkedin from "../../assets/images/linkedin.png";
-import twitter from "../../assets/images/twitter.png";
+import github from "../assets/images/github.png";
+import linkedin from "../assets/images/linkedin.png";
+import twitter from "../assets/images/twitter.png";
 import styled from "styled-components";
 
 const Container = styled.div`

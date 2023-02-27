@@ -1,6 +1,6 @@
 import "./App.css"
 import Banner from "./components/banner"
-import About from "./components/about/about"
+import About from "./components/about"
 import Contact from "./components/contact"
 import ProjectSection from "./components/projectSection/projectSection"
 import Footer from "./components/footer/footer"

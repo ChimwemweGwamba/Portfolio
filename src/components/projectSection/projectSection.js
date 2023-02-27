@@ -1,6 +1,6 @@
 import React from 'react'
 import './projectSection.css'
-import Project from '../project/project'
+import Project from '../project'
 
 
 function ProjectSection() {
