@@ -11,19 +11,19 @@ const Container = styled.div`
   padding: 5rem 0;
 `;
 
-const CardLeft = styled.div`
-  width: 35%;
+const CardRight = styled.div`
+  width: 55%;
 `;
 
 const Title = styled.h1`
   margin: 0;
 `;
 
-const CardRight = styled.div`
+const CardLeft = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 55%;
+  width: 40%;
 `;
 
 const Heading = styled.h5`
@@ -47,8 +47,7 @@ const Text = styled.p`
   margin: 0;
 `;
 
-const Socials = styled.p`
-`;
+const Socials = styled.p``;
 
 const Image = styled.img`
   width: 2.1rem;
@@ -63,12 +62,6 @@ function About() {
   return (
     <Container>
       <CardLeft>
-        <Title>
-          Complex problems <a>excite me.</a> Efficient solutions <a>drive me.</a>
-        </Title>
-      </CardLeft>
-
-      <CardRight>
         <Heading>ABOUT ME</Heading>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -108,6 +101,13 @@ function About() {
             onClick={() => openInNewTab("https://twitter.com/Chim_dawg")}
           />
         </Socials>
+      </CardLeft>
+
+      <CardRight>
+        <Title>
+          Complex problems <a>excite me.</a> Efficient solutions{" "}
+          <a>drive me.</a>
+        </Title>
       </CardRight>
     </Container>
   );

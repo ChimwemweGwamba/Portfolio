@@ -1,36 +1,27 @@
-import React from 'react'
+import React from "react";
 import styled from "styled-components";
-import Project from './project';
-
+import Project from "./project";
 
 const Container = styled.div`
   padding: 5rem 0;
 `;
 
-const Heading = styled.h5`
-`;
+const Heading = styled.h5``;
 
-const Title = styled.h1`
-`;
-
+const Title = styled.h1``;
 
 function Projects() {
   return (
     <Container>
+      <Heading>PROJECTS</Heading>
 
-          <Heading>
-            PROJECTS
-          </Heading>
+      <Title>
+        Here are some of the <a>Projects</a> i've built
+      </Title>
 
-          <Title>
-              Here are some of the <a>Projects</a> i've built
-          </Title>
-
-
-        <Project/>
-
+      <Project />
     </Container>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
