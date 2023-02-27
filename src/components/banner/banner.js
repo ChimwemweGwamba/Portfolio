@@ -6,7 +6,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5.2rem 0;
+  padding: 5rem 0;
 `;
 
 const CardLeft = styled.div`
