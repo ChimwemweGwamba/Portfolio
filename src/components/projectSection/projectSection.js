@@ -1,26 +1,35 @@
 import React from 'react'
-import './projectSection.css'
-import Project from '../project'
+import styled from "styled-components";
+import Project from '../project';
+
+
+const Container = styled.div`
+  padding: 5rem 0;
+`;
+
+const Heading = styled.h5`
+`;
+
+const Title = styled.h1`
+`;
 
 
 function ProjectSection() {
   return (
-    <div className='projectSectionContainer'>
-        <div className='projectSectionText'>
-          <h5>
+    <Container>
+
+          <Heading>
             PROJECTS
-          </h5>
+          </Heading>
 
-          <h1>
+          <Title>
               Here are some of the <a>Projects</a> i've built
-          </h1>
-        </div>
+          </Title>
 
-        <Project></Project>
 
-        <Project></Project>
+        <Project/>
 
-    </div>
+    </Container>
   )
 }
 
