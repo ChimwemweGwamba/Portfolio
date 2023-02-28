@@ -15,6 +15,7 @@ h1 a{
   background: -webkit-linear-gradient(left, #00FFFF 60%, #F3A0D7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #ff23b613;
 }
 
 h3{

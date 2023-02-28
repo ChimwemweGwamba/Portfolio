@@ -23,7 +23,10 @@ const CardRight = styled.div`
 `;
 
 const Image = styled.img`
-  width: 100%;
+  width: 95%;
+  border: solid 1px #F3A0D7;
+  background-color: #ff00aa17;
+  border-radius: 25% 25% 50% 50%;
   margin: 0 auto;
 `;
 

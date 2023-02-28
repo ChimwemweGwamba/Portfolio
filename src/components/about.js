@@ -6,28 +6,22 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   padding: 5rem 0;
-`;
-
-const CardRight = styled.div`
-  width: 55%;
-`;
-
-const Title = styled.h1`
-  margin: 0;
+  text-align: center;
 `;
 
 const CardLeft = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 40%;
+  width: 80%;
 `;
 
-const Heading = styled.h5`
-  margin-bottom: 2.5rem;
+const Title = styled.h1`
+  margin: 2rem 0;
+`;
+
+const CardRight = styled.div`
+  width: 80%;
 `;
 
 const Skills = styled.div`
@@ -47,7 +41,8 @@ const Text = styled.p`
   margin: 0;
 `;
 
-const Socials = styled.p``;
+const Socials = styled.p`
+`;
 
 const Image = styled.img`
   width: 2.1rem;
@@ -62,7 +57,12 @@ function About() {
   return (
     <Container>
       <CardLeft>
-        <Heading>ABOUT ME</Heading>
+        <Title>
+          Complex problems <a>excite me.</a> Efficient solutions <a>drive me.</a>
+        </Title>
+      </CardLeft>
+
+      <CardRight>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
@@ -101,13 +101,6 @@ function About() {
             onClick={() => openInNewTab("https://twitter.com/Chim_dawg")}
           />
         </Socials>
-      </CardLeft>
-
-      <CardRight>
-        <Title>
-          Complex problems <a>excite me.</a> Efficient solutions{" "}
-          <a>drive me.</a>
-        </Title>
       </CardRight>
     </Container>
   );
