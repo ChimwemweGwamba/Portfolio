@@ -52,12 +52,7 @@ button {
   width: fit-content;
   margin: 1.25rem 0;
   cursor: pointer;
-  transform: skew(0deg);
-}
-
-span {
-  display: inline-block;
-  transform: skew(0deg);
+  transform: scale(1)
 }
 
 button::before {
@@ -84,11 +79,6 @@ button:hover::before {
   opacity: 1;
 }
 
-button:hover::before {
-  left: 0;
-  right: 0;
-  opacity: 1;
-}
 
 
 

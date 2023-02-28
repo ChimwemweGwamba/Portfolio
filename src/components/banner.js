@@ -28,6 +28,12 @@ const Image = styled.img`
   background-color: #ff00aa17;
   border-radius: 25% 25% 50% 50%;
   margin: 0 auto;
+  transition: transform .6s;
+
+ :hover{
+  transform: rotateY(180deg);
+  
+ } 
 `;
 
 const Heading = styled.h1``;
@@ -44,7 +50,7 @@ function Banner() {
 
         <SubHeading>A Fullstack Software Developer</SubHeading>
         <Button>
-          <span>Download Resume</span>
+          Download Resume
         </Button>
       </CardLeft>
 
