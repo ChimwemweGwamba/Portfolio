@@ -19,8 +19,7 @@ const Text = styled.p`
   margin: 2.5rem auto;
 `;
 
-const Button = styled.button`
-`;
+
 
 function Contact() {
   return (
@@ -30,9 +29,8 @@ function Contact() {
       </Heading>
 
       <Text>
-        Even I’m currently looking for any new opportunities, my inbox is always
-        open. Whether you have a question or just want to say hi, I’ll try my
-        best to get back to you!
+        I’m currently looking for any new opportunities, but whether you have a
+        question or just want to say hi, my inbox is always open.
       </Text>
 
       <button>Send Message</button>

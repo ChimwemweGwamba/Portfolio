@@ -24,7 +24,7 @@ const CardRight = styled.div`
 
 const Image = styled.img`
   width: 95%;
-  border: solid 1px #F3A0D7;
+  background: linear-gradient(315deg, #00FFFF, #ff0058);
   background-color: #ff00aa17;
   border-radius: 25% 25% 50% 50%;
   margin: 0 auto;

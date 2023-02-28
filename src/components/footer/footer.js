@@ -1,14 +1,19 @@
 import React from 'react'
-import './footer.css'
+import styled from "styled-components";
+
+const Container = styled.div`
+    padding: 0.625rem 0;
+    text-align: center;
+`;
 
 
 function Footer() {
   return (
-    <div className='footerContainer'>
+    <Container>
         <p>
-            <a>Designed & built by Chimwemwe Gwamba</a>
+           Designed & built by Chimwemwe Gwamba
         </p>
-    </div>
+    </Container>
   )
 }
 

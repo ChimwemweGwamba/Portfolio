@@ -28,7 +28,9 @@ const Skills = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 0;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
 `;
 
 const Skill = styled.p`
@@ -37,12 +39,10 @@ const Skill = styled.p`
 `;
 
 const Text = styled.p`
-  text-align: justify;
-  margin: 0;
+  margin: 2rem 0;
 `;
 
-const Socials = styled.p`
-`;
+const Socials = styled.p``;
 
 const Image = styled.img`
   width: 2.1rem;
@@ -58,16 +58,21 @@ function About() {
     <Container>
       <CardLeft>
         <Title>
-          Complex problems <a>excite me.</a> Efficient solutions <a>drive me.</a>
+          Complex problems <a>excite me.</a> Efficient solutions{" "}
+          <a>drive me.</a>
         </Title>
       </CardLeft>
 
       <CardRight>
         <Text>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore.
+          I am a full-stack developer who specializes in creating high-quality
+          web and mobile applications using a variety of cutting-edge
+          technologies. I have expertise in React and NodeJS with TypeScript,
+          and I have a proven track record of delivering scalable and performant
+          solutions for clients across diverse industries. Whether you need a
+          custom web app, a mobile app, or a full-stack solution, I have the
+          skills and experience to turn your ideas into reality. Let's work
+          together to create something amazing.
         </Text>
 
         <Skills>
@@ -75,11 +80,7 @@ function About() {
 
           <Skill>NodeJS</Skill>
 
-          <Skill>React Native</Skill>
-
           <Skill>TypeScript</Skill>
-
-          <Skill>Data structures & algorithms</Skill>
         </Skills>
 
         <Socials>
