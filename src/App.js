@@ -1,10 +1,12 @@
-import "./App.css";
-import Banner from "./components/banner";
-import About from "./components/about";
-import Contact from "./components/contact";
-import Projects from "./components/projects";
-import Footer from "./components/footer/footer";
-import NavBar from "./components/navBar/navBar";
+import "./App.css"
+import Banner from "./components/banner"
+import About from "./components/about"
+import Contact from "./components/contact"
+import Projects from "./components/projects"
+import Footer from "./components/footer/footer"
+import NavBar from "./components/navBar/navBar"
+
+
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
         <Contact></Contact>
         <Footer></Footer>
       </div>
-    </div>
+  </div>
   );
 }
 

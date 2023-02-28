@@ -24,16 +24,14 @@ const CardRight = styled.div`
 
 const Image = styled.img`
   width: 95%;
-  background: linear-gradient(315deg, #00FFFF, #ff0058);
+  background: linear-gradient(315deg, #00ffff, #ff0058);
   background-color: #ff00aa17;
   border-radius: 25% 25% 50% 50%;
   margin: 0 auto;
 `;
 
 const Heading = styled.h1``;
-
 const SubHeading = styled.p``;
-
 const Button = styled.button``;
 
 function Banner() {
@@ -45,7 +43,9 @@ function Banner() {
         </Heading>
 
         <SubHeading>A Fullstack Software Developer</SubHeading>
-        <Button>My Resume</Button>
+        <Button>
+          <span>Download Resume</span>
+        </Button>
       </CardLeft>
 
       <CardRight>

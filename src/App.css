@@ -41,15 +41,54 @@ p{
   margin: 0;
 }
 
-button{
+button {
+  background: transparent;
   border: solid 1px #00FFFF;
-  color: #00FFFF;
-  background-color: transparent;
-  font-size: 1rem;
-  padding: 1rem 2.5rem;
   border-radius: 5px;
-  margin: 2rem 0;
+  color: #fff;
+  padding: 0.85rem 1.25rem;
+  display: inline-block;
+  font-size: 15px;
   width: fit-content;
+  margin: 1.25rem 0;
+  cursor: pointer;
+  transform: skew(0deg);
 }
+
+span {
+  display: inline-block;
+  transform: skew(0deg);
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background: linear-gradient(315deg, #00ffff, #ff0058);
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: white;
+  font-weight: bold;
+}
+
+button:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+button:hover::before {
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
 
 
