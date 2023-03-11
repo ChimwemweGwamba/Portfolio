@@ -9,14 +9,14 @@ body {
 
 h1{
   font-size: 4.5rem;
-  line-height: 4.75rem;
-  font-weight: 800;
+  line-height: 5rem;
+  font-weight: 900;
   color: white;
   margin: 0;
 }
 
 h1 a{
-  background: -webkit-linear-gradient(right,#00FF80 0%,#00ffff 100%);
+  background: -webkit-linear-gradient(right, skyblue 0%,#00ffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #ff23b613;
