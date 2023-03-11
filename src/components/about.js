@@ -5,14 +5,12 @@ import twitter from "../assets/images/twitter.png";
 import styled from "styled-components";
 
 const Container = styled.div`
-  border: solid 1px white;
   height: 100vh;
   scroll-snap-align: center;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-   padding: 5rem 0;
-    text-align: center; */
+  text-align: center;
 `;
 
 const CardLeft = styled.div`
@@ -59,8 +57,7 @@ function About() {
 
   return (
     <Container>
-      <h1>2</h1>
-      {/* <CardLeft>
+      <CardLeft>
         <Title>
           Complex problems <a>excite me.</a> Efficient solutions{" "}
           <a>drive me.</a>
@@ -106,7 +103,7 @@ function About() {
             onClick={() => openInNewTab("https://twitter.com/Chim_dawg")}
           />
         </Socials>
-      </CardRight> */}
+      </CardRight>
     </Container>
   );
 }

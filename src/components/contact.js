@@ -2,12 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center; */
-  border: solid 1px white;
+  text-align: center;
   height: 100vh;
   scroll-snap-align: center;
 `;
@@ -24,8 +23,7 @@ const Text = styled.p`
 function Contact() {
   return (
     <Container>
-      <h1>4</h1>
-      {/* <Heading>
+      <Heading>
         Let's Get <a>In Touch</a>
       </Heading>
 
@@ -34,7 +32,7 @@ function Contact() {
         question or just want to say hi, my inbox is always open.
       </Text>
 
-      <button>Send Message</button> */}
+      <button>Send Message</button>
     </Container>
   );
 }

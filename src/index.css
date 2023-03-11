@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(2, 3, 27);
+  background-color: black;
 }
 
 h1{
@@ -16,7 +16,7 @@ h1{
 }
 
 h1 a{
-  background: -webkit-linear-gradient(left,#00FFFF 60%,#ff0058);
+  background: -webkit-linear-gradient(right,#00FF80 0%,#00ffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #ff23b613;
@@ -38,7 +38,7 @@ h5{
 }
 
 p{
-  color: rgb(163 179 188);
+  color: #DADFF7;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 100;
@@ -54,7 +54,7 @@ button {
   display: inline-block;
   font-size: 15px;
   width: fit-content;
-  margin: 1.25rem 0;
+  margin: 0;
   cursor: pointer;
   transform: scale(1)
 }
@@ -66,14 +66,14 @@ button::before {
   bottom: 0;
   right: 100%;
   left: 0;
-  background: linear-gradient(315deg, #00ffff, #ff0058);
+  background: linear-gradient(315deg, #00ffff, #00FF80);
   opacity: 0;
   z-index: -1;
   transition: all 0.5s;
 }
 
 button:hover {
-  color: white;
+  color: black;
   font-weight: bold;
 }
 

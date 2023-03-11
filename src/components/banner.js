@@ -3,13 +3,11 @@ import bannerImg from "../assets/images/selfie.png";
 import styled from "styled-components";
 
 const Container = styled.div`
-border: solid 1px white;
-height: 100vh;
-scroll-snap-align: center;
-  /* display: flex;
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between; */
- // padding: 5rem 0;
+  justify-content: space-between;
 `;
 
 const CardLeft = styled.div`
@@ -21,42 +19,40 @@ const CardLeft = styled.div`
 
 const CardRight = styled.div`
   display: flex;
-  justify-content: center;
-  width: 35%;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
 `;
 
 const Image = styled.img`
-  width: 95%;
-  background: linear-gradient(315deg, #00ffff, #ff0058);
-  background-color: #ff00aa17;
-  border-radius: 25% 25% 50% 50%;
-  margin: 0 auto;
+  width: 100%;
 `;
 
 const Heading = styled.h1``;
-const SubHeading = styled.p``;
+const SubHeading = styled.p`
+  margin: 30px 0;
+`;
 const Button = styled.button``;
 
 function Banner() {
   return (
     <Container>
-      <h1>
-        1
-      </h1>
-      {/* <CardLeft>
+      <CardLeft>
         <Heading>
           Hi, I'm <a>Chimwemwe Gwamba</a>.
         </Heading>
 
-        <SubHeading>A Fullstack Software Developer</SubHeading>
-        <Button>
-          Download Resume
-        </Button>
+        <SubHeading>
+          A full-stack developer who specializes in building high-quality
+          applications.
+        </SubHeading>
+
+        <Button>Download Resume</Button>
       </CardLeft>
 
       <CardRight>
         <Image src={bannerImg} alt="img" />
-      </CardRight> */}
+      </CardRight>
     </Container>
   );
 }
