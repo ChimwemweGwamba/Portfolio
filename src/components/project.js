@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  padding: 5rem 0;
+
+  /* padding: 5rem 0; */
 `;
 
 function Project() {

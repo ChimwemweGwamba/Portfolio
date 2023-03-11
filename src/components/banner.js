@@ -3,10 +3,13 @@ import bannerImg from "../assets/images/selfie.png";
 import styled from "styled-components";
 
 const Container = styled.div`
-  display: flex;
+border: solid 1px white;
+height: 100vh;
+scroll-snap-align: center;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 5rem 0;
+  justify-content: space-between; */
+ // padding: 5rem 0;
 `;
 
 const CardLeft = styled.div`
@@ -37,7 +40,10 @@ const Button = styled.button``;
 function Banner() {
   return (
     <Container>
-      <CardLeft>
+      <h1>
+        1
+      </h1>
+      {/* <CardLeft>
         <Heading>
           Hi, I'm <a>Chimwemwe Gwamba</a>.
         </Heading>
@@ -50,7 +56,7 @@ function Banner() {
 
       <CardRight>
         <Image src={bannerImg} alt="img" />
-      </CardRight>
+      </CardRight> */}
     </Container>
   );
 }
