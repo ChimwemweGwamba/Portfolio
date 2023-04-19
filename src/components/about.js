@@ -92,7 +92,7 @@ function About() {
     <Container>
       <CardLeft>
         <Title>
-          Skills &<a> experience.</a>
+          Skills &<a> experience</a>.
         </Title>
 
         <Text>

@@ -7,17 +7,13 @@ const Container = styled.div`
   scroll-snap-align: center;
 `;
 
-const Heading = styled.h5``;
-
 const Title = styled.h1``;
 
 function Projects() {
   return (
     <Container>
-      <Heading>PROJECTS</Heading>
-
       <Title>
-        Here are some of the <a>Projects</a> i've built
+        Here are some of the <a>Projects</a> i've built.
       </Title>
 
       <Project />
